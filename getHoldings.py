@@ -6,8 +6,9 @@ import stockCred as cred
 
 import pandas as pd
 import datetime
- 
+import os
 
+tOpt = input("Enter the TOPT from Microsoft Authenticator  ")
 
 #create object of call
 obj = SmartConnect(api_key= cred.key
@@ -15,7 +16,7 @@ obj = SmartConnect(api_key= cred.key
                 #access_token = 'd8400597-2597-4719-97ac-e361e1937a0b',
                 #refresh_token = "your refresh_token")
 )
-data = obj.generateSession(cred.userName,cred.password, 535087)
+data = obj.generateSession(cred.userName,cred.password, tOpt)
 
 cs = obj.holding()
 
@@ -52,5 +53,8 @@ current_date = str(datetime.datetime.now()).split()[0]
 
 df1.to_csv(current_date + " Holdings", sep='\t')
 
+cwd = os.getcwd()
+
+print("Please find your Holding data of " + current_date + " under " + cwd )
   
 

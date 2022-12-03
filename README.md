@@ -23,7 +23,7 @@ Step2 :- Need to enable Enable TOTP -
   ( Note:- Every time when you run the getHoldingdata.py you need to provide this TOTP ) 
   
 Step3 :- Where to enter Credentials and key -
-  # These 4 credentials should be add in StockCred.py app 
+  # These 3 credentials should be add in StockCred.py app 
   1. key = ''      # Key can be found underapp that you created in step1
   2. password = "" # AngleOne Password
   3. userName  = " # Client ID

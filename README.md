@@ -23,6 +23,12 @@ Step2 :- Need to enable Enable TOTP
 Sept3 :- 
 
 
+
+  1.![image](https://user-images.githubusercontent.com/53943052/205432867-28611355-ae0c-44df-a532-a8bc08915ccf.png)
+  2. ![image](https://user-images.githubusercontent.com/53943052/205432907-1debed5b-7963-41a8-97fb-e6d0f8becdac.png)
+  3. Please find your Holding data of 2022-12-03 under C:\Users\eswar\OneDrive\Desktop\webdev
+
+
   
 
 
